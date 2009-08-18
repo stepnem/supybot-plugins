@@ -1,0 +1,10 @@
+Author: Kabaka
+E-mail: kabaka@sinsira.net
+Web Site: http://sinsira.net/
+IRC Network: irc.sinsira.net
+
+This is a partial version of Kabaka's Kabota plugin. This version can search through logs using grep, as well as just find the first and last instance of text using native Python functions. The grep functions are restricted to owners only (for obvious reasons) while the first and last functions are open to all users.
+
+Also wrote in a wrapper for privmsg.
+
+There are no configuration variables. ChannelLogger must be loaded and running for this to work.
