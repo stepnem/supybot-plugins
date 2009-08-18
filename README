@@ -1,0 +1,8 @@
+This repo contains plugins for the Supybot IRC bot (have a look at
+<http://sourceforge.net/projects/supybot/>), previously included in the
+currently unsupported and unavailable supybot-plugins package, minus
+those known to be still maintained (namely Debian, Infobot, Markov).
+
+Some of the plugins might be broken, some use functionality or API
+not available any more (like UrbanDict).
+
