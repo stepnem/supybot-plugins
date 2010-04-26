@@ -20,3 +20,4 @@ For some more (mostly untested and of unknown quality, additions welcome), try:
 <http://bazaar.launchpad.net/~ubuntu-fr/ubuntu-bots/ubotufr/files/head%3A/ChannelManager/>
 bzr branch lp:~avassalotti/triviabot/triviabot.dev
 bzr branch lp:~qsheets095/trivial/devel
+<http://bitbucket.org/bboissin/geekquotes/>
