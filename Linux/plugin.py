@@ -56,11 +56,11 @@ class Linux(callbacks.Plugin):
             mm = 'unknown'
             for line in fd:
                 (name, version) = line.split(':')
-                if 'latest stable' in name:
+                if 'latest stable 3.0' in name:
                     stable = version.strip()
-                elif 'snapshot for the stable' in name:
+                elif 'snapshot 3' in name:
                     snapshot = version.strip()
-                elif '-mm patch' in name:
+                elif 'mainline 3' in name:
                     mm = version.strip()
         finally:
             fd.close()
